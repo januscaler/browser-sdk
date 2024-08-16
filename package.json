@@ -1,5 +1,5 @@
 {
-	"name": "browser-sdk",
+	"name": "@januscaler/browser-sdk",
 	"version": "1.0.0",
 	"description": "an intuitive browser sdk for januscaler services written on top of core-januscaler-js",
 	"keywords": [
@@ -7,6 +7,16 @@
 		"webrtc",
 		"engine"
 	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/januscaler/browser-sdk.git"
+	},
+	"bugs": {
+		"url": "https://github.com/januscaler/browser-sdk/issues"
+	},
+	"publishConfig": {
+		"@januscaler:registry": "https://npm.pkg.github.com"
+	},
 	"license": "MIT",
 	"author": "shivanshtalwar0 <shivanshtalwar0@gmail.com>",
 	"exports": {
@@ -30,8 +40,8 @@
 	},
 	"dependencies": {
 		"ioredis": "5.3.2",
-		"lodash": "^4.17.21",
-		"rxjs": "^7.8.1"
+		"lodash": "4.17.21",
+		"rxjs": "7.8.1"
 	},
 	"devDependencies": {
 		"@babel/core": "7.18.2",
@@ -49,10 +59,10 @@
 		"@semantic-release/github": "8.0.4",
 		"@semantic-release/npm": "9.0.1",
 		"@semantic-release/release-notes-generator": "10.0.3",
-		"@types/lodash": "^4.14.200",
-		"@types/node": "^20.8.9",
+		"@types/lodash": "4.14.200",
+		"@types/node": "20.8.9",
 		"lint-staged": "12.4.2",
-		"prettier": "^2.6.2",
+		"prettier": "2.6.2",
 		"rimraf": "3.0.2",
 		"rollup": "2.74.1",
 		"rollup-plugin-terser": "7.0.2",
